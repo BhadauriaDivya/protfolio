@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="home"></div>
+    <div id="header">
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul><li><a href="#home"> Home</a></li>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#services"> Services</a></li>
+                    <li><a href="#contact"> Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <section class="firstsection" >
+            <div class="leftsection">
+                Hi There!<br>
+                My name is <span class="purple">Divyanshi</span>
+                <div>
+                    and I am a<span class="purple"> Web Developer</span>.
+                </div>
+                <div>
+                    I make the complex simple.
+                </div>
+                <div>
+                    <a href="#contact">
+                        <button class="button"> CONTACT ME</button>
+                    </a>
+                </div>
+                <div id="footer">
+                    <nav>
+                        <ul>
+                            <li>Email<br>
+                                bdivyanshi***11@gmail.com |</li>
+                            <li>Phone<br>
+                                638******4 |<li>
+                            <li>Location<br>
+                                Delhi, India |<li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image/bg.png" >
+            </div>
+        </section>        
+        <div id="about"></div>
+        <hr>
+        <section class="secondsection" >
+            <div class="image">
+                <img src="image/me.jpg" style="width: 300px;height: 370px;">
+            </div>
+            <div class="text">
+                <h1><u><span class="purple">ABOUT ME</span></u></h1>
+                <br>
+                <h3><span class="owhite">I'm Divyanshi Bhadauria, a visual UX/UI Designer and Web Developer.</span></h3>
+                <br>
+                <p><i>Enthusiastic student passionate about creating intutive digital experiences.
+                    Proficient in web development with focus on UI/UX design.
+                    Skilled in bending aesthetic with functionality to deliver engaging user-centric solution.
+                    Eager to contribute innovation ideas and technical expertise to dynamic project. </i>
+                </p><br>
+                <div class="box">
+                    <ul>
+                        <li><b>Name</b> : Divyanshi Bhadauria</li>
+                        <li><b>Age</b> : 20</li>
+                        <li><b>Phone</b> : 638******4</li>
+                        <li><b>Address</b> : Delhi, India</li>
+                    </ul>
+                </div>
+                <br><div id="services"></div><br>
+            </div>
+        </section>
+        <hr id="hr">
+        <section class="thirdsection">
+            <div>
+                <h1><u>My Services</u></h1>
+                <br>
+                <br>
+                <div class="box1"><i class="fa fa-lightbulb-o"></i><h4>UI/UX design</h4>
+                </div>
+                <div class="box1"><i class="fa fa-pencil" ></i><h4>Web Design</h4>
+                </div>
+                <div class="box1"><i class="fa fa-desktop"></i><h4>Web Developer</h4>
+                </div>
+                <div class="box1"><i class="fa fa-video-camera"></i><h4>Video Editing</h4>
+                </div>
+            </div>
+        </section>
+        <hr id="hr1">
+        <section class="fourthsection" id="contact">
+                <div class="lefts">
+                    <h2>Contact Me</h2>
+                    <br>
+                    <p><i class="fa fa-paper-plane" style="color: rgb(112, 112, 243)"> </i> bdivyanshi***11@gmail.com</p>
+                    <p><i class="fa fa-phone" style="color: rgb(112, 112, 243)"> </i>  638******4</p>
+                </div>
+            <div class="rights">
+                <div><input type="text" id="name" placeholder="Your Name" required></input></div>
+                <div><input type="email" id="email" placeholder="Your Email" required></input></div>
+                <div><input type="text" id="msg" placeholder="Your Message" required></input></div>
+                <div><button type="submit" id="sub">Submit</button></div>
+            </div>
+        </section>
+</body>
+</html>
